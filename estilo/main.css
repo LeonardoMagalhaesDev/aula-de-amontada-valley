@@ -1,0 +1,18 @@
+p{
+    color: darkblue;
+    background-color: #c6c6c6;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+#h2_da_casa, #h2_do_carro, #h2_da_luta, #h2_da_paisagem{
+    text-align: center;
+}
+.em_negrito{
+    font-weight: lighter;
+}

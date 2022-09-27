@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    background-color: #ededed;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+#header{
+    background-image: url("../imagens/av_viagens_header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    color: #ededed;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Courgette', cursive;
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+    padding: 23%;
+    box-sizing: border-box;
+}
+
+#nav{
+    margin: 0px auto;
+    font-size: 26px;
+}

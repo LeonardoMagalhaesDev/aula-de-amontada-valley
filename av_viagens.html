@@ -13,13 +13,86 @@
     </h1>
     <table id="nav">
         <tr>
-            <td>Home</td>
-            <td>Quem Somos</td>
-            <td>A Definir</td>
-            <td>Contato</td>
-            <td>Localização</td>
+            
+            <td><a class="a_decoration" href="#">Home</a></td>
+            <td><a class="a_decoration"  href="#">Quem Somos</a></td>
+            <td><a class="a_decoration"  href="#">Enquete</a></td>
+            <td><a class="a_decoration"  href="#">Contato</a></td>
+            <td><a class="a_decoration"  href="#">Localização</a></td>
         </tr>
     </table>
+    <hr>
+    <table id="sobre_nos">
+        <tr>
+            <td>
+                <img src="imagens/av_viagens_nos.jpg" alt="Sobre nós">
+            </td>
+            <td>
+                <h2>Sobre nós</h2>
+                <p id="p_sobre_nos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolor in animi, hic rerum fugiat quia eos possimus, amet nemo, ab obcaecati minus laborum reiciendis adipisci nisi nulla sequi modi eum repellat exercitationem dicta consequatur maxime repudiandae. Eum numquam error nam quam tempore. Consequatur molestiae architecto a adipisci iure.</p>
+            </td>
+        </tr>
+    </table>
+    <div id="div_background">
+    <div id="div_enquete">
+        <form>
+            <h2>Qual destino você prefere?</h2>
+            <div>
+                <label class="for_texto" for="nome">Nome:</label>
+                <input type="text" name="nome"id="nome">
+            </div>
+            <div>
+                <fieldset>
+                    <legend class="for_texto">Melhores Destinos:</legend>
+                    <ul>
+                        <li class="for_texto"><input  type="radio" name="destino" id="pais"value="pais">
+                            <label for="pais">Paris</label>
+                        </li>
+                        <li class="for_texto"><input type="radio" name="destino" id="londres"value="londres">
+                            <label for="londres">Londres</label>
+                        </li>
+                        <li class="for_texto"><input type="radio" name="destino" id="india"value="india">
+                            <label for="india">Índia</label>
+                        </li>
+                        <li class="for_texto"><input type="radio" name="destino" id="italia"value="italia">
+                            <label for="italia">Itália</label>
+                        </li>
+                        <li class="for_texto"><input type="radio" name="destino" id="rio_de_janeiro"value="rio_de_janeiro">
+                            <label for="rio_de_janeiro">Rio de Janeiro</label>
+                        </li>
+                    </ul>
+                    <input type="submit" id="btn_enviar">
+            </fieldset>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div id="div_background2">
+        <div id="div_contato">
+            <form>
+                <h2>Em que posso ajudar?</h2>
+                <div>
+                    <label class="for_texto" for="nome">Nome:</label>
+                    <input type="text" name="nome"id="nome">
+                </div>
+                <div>
+                    <label class="for_texto" for="email">E-mail:</label>
+                    <input type="text" name="email"id="email">
+                </div>
+                <div>
+                    <label class="for_texto" for="contato">Contato:</label>
+                    <input type="text" name="contato"id="contato">
+                </div>
+                <div>
+                    <label class="for_texto" for="mensagem">Mensagem:</label>
+                    <input type="text" name="mensagem"id="mensagem">
+                </div>
+                <div>
+                    <input type="submit"id="btn_enviar">
+                </div>
+            </form>
+        </div>
+        </div>
     <about>
 
     </about>

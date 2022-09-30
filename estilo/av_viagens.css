@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 *{
     background-color: #ededed;
     margin: 0px;
     padding: 0px;
-}
-
-img{
-    width: 100%;
 }
 #header{
     background-image: url("../imagens/av_viagens_header.jpg");
@@ -25,6 +22,84 @@ img{
 }
 
 #nav{
-    margin: 0px auto;
+    margin: 20px auto;
     font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+td{
+    padding-left: 30px;
+    margin: 10px;
+}
+.a_decoration{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #b5faf5;
+    color: #333333;
+    border-radius: 10px;
+}
+
+.a_decoration:hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #333333;
+    color: #b5faf5;
+    border-radius: 10px;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #333333;
+}
+table #sobre_nos{
+    width: 100%;
+    height: 450px;
+}
+img{
+    width: 100%;
+
+}
+h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+#p_sobre_nos{
+    text-align: justify;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+#div_background{
+    background-image: url("../imagens/av_viagens_enquete.png");
+    background-size: cover;
+    margin: 20px 0px;
+}
+#div_enquete{
+    height: 300px;
+    width: 50%;
+    margin: 0px 0px 0px auto;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.for_texto{
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#nome, #email, #contato, #mensagem{
+    width: 250px;
+    height: 28px;
+    border-radius: 10px;
+}
+#btn_enviar{
+    width: 50px;
+    height: 28px;
+    border-radius: 10px;
 }

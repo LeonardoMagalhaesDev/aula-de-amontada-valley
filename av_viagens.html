@@ -8,20 +8,22 @@
     <link rel="stylesheet" type="text/css" href="estilo/av_viagens.css">
 </head>
 <body>
+    <a id="area_home"></a>
     <h1 id="header">
         AV Viagens<br>Levando você aos sonhos!
     </h1>
     <table id="nav">
         <tr>
             
-            <td><a class="a_decoration" href="#">Home</a></td>
-            <td><a class="a_decoration"  href="#">Quem Somos</a></td>
-            <td><a class="a_decoration"  href="#">Enquete</a></td>
-            <td><a class="a_decoration"  href="#">Contato</a></td>
-            <td><a class="a_decoration"  href="#">Localização</a></td>
+            <td><a class="a_decoration" href="#area_home">Home</a></td>
+            <td><a class="a_decoration"  href="#area_nos">Quem Somos</a></td>
+            <td><a class="a_decoration"  href="#area_enquete">Enquete</a></td>
+            <td><a class="a_decoration"  href="#area_contato">Contato</a></td>
+            <td><a class="a_decoration"  href="#area_localizacao">Localização</a></td>
         </tr>
     </table>
     <hr>
+    <a id="area_nos"></a>
     <table id="sobre_nos">
         <tr>
             <td>
@@ -35,6 +37,7 @@
     </table>
     <div id="div_background">
     <div id="div_enquete">
+        <a id="area_enquete"></a>
         <form>
             <h2>Qual destino você prefere?</h2>
             <div>
@@ -69,6 +72,7 @@
     </div>
     <div id="div_background2">
         <div id="div_contato">
+            <a id="area_contato"></a>
             <form>
                 <h2>Em que posso ajudar?</h2>
                 <div>
@@ -88,25 +92,22 @@
                     <input type="text" name="mensagem"id="mensagem">
                 </div>
                 <div>
-                    <input type="submit"id="btn_enviar">
+                    <input type="submit"id="btn_enviar02">
                 </div>
             </form>
         </div>
-        </div>
-    <about>
-
-    </about>
-    <section>
-
-    </section>
-    <content>
-
-    </content>
-    <location>
-
-    </location>
+    </div>
+    <hr>
+    <a id="area_localizacao"></a>
+    <table id="tabela_mapa">
+        <tr>
+            <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.168092591598!2d-46.636510699999995!3d-23.5264559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58613439b6f3%3A0x9976c91219bd732f!2sR.%20Joaquim%20Murtinho%2C%20183%20-%20Bom%20Retiro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001123-050!5e0!3m2!1spt-BR!2sbr!4v1664825420656!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+        </tr>
+    </table>
     <footer>
-
+        &copy; Todos direitos Reservados
     </footer>
 </body>
 </html>

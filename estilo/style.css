@@ -1,0 +1,63 @@
+
+*{
+    margin: 0px;
+    padding: 0rem;
+}
+.imagem_principal{
+    width: 40%;
+    margin: auto;
+}
+#nav{
+    margin: 20px auto;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+td{
+    padding-left: 30px;
+    margin: 10px;
+}
+.a_decoration{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #b5faf5;
+    color: #333333;
+    border-radius: 10px;
+}
+
+.a_decoration:hover{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #333333;
+    color: #b5faf5;
+    border-radius: 10px
+}
+.Imagem2{
+    width: 1000px;
+}
+hr{
+    width: 70%;
+    height: 2px;
+    margin: 20px;
+    background-color: #333333;
+}
+
+.Imagem3 {
+    width: 1000px;
+}
+.imagem4{
+    width: 100px;
+}
+#tabela_mapa{
+    background-color: #cccccc;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #F2F2F2;
+    color: #025951;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

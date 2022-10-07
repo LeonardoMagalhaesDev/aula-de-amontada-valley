@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0rem;
+}
+#imagem_principal{
+    width: 40%;
+    margin: auto;
+
+}
+#nav_menu{
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.8em;
+    box-shadow: 0px 7px 10px #40182e0e;
+    font-family: 'Bebas Neue', cursive;
+}
+#nav_menu a{
+    color: #025951;
+    text-decoration: none;
+    padding: 10px;
+    padding: 0px 15px;
+}
+#nav_menu a:hover{
+    background-color:#65A69F ;
+    color: #40182E;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+.main_principa{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 7px 10px #40182e0e;
+    
+}
+#sobre_nos{
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sobre_nos img{
+    padding: 20px;
+}
+#form_principa{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h2{
+    color: #40182E;
+}
+form h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+#favoritos_pet{
+    width: 50%;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+.nome{
+    font-family: 'Roboto', sans-serif;
+}
+fieldset{
+    width:100%;
+}
+.segunda_img{
+    width: 25%;
+    padding-left: 160px;
+}
+li{
+    list-style: none;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #40182E;
+}
+#terceira_img{
+    width: 100%;
+    padding: 30px 0px;
+}
+#tabela_mapa{
+    background-color: #cccccc;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #F2F2F2;
+    color: #025951;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

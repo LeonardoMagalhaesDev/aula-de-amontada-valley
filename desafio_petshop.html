@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop - Perto de mim </title>
+    <link rel="stylesheet" type="text/css" href="estilo/desafio_petshop.css">
+</head>
+<body>
+    <a id="home"></a>
+    <div>
+        <a href="https://www.adotepetz.com.br/"><img src="imagens/logo-adotepetz-color.svg" alt="adote um Pet"></a>  
+    </div>
+    <div id="imagem_principal">
+        <img src="imagens/capa.png" alt="">
+    </div>
+    <div id="nav_menu">
+        <a href="#home">Home</a>
+        <a href="#quem_somos">Quem Somos</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#contato">Contato</a>
+    </div>
+    <div class="main_principa">
+        <div>
+            <a id="quem_somos"></a>
+            <table id="sobre_nos">
+                <tr>
+                    <td>
+                        <img src="imagens/animais.png" alt="Sobre nós">
+                    </td>
+                    <td>
+                        <h2>Sobre nós</h2>
+                        <p id="p_sobre_nos">Só quem é apaixonado por animais sabe: a relação de amor e cumplicidade que temos com nossos bichinhos de estimação é um vínculo único! Por essa razão, não medimos esforços para oferecer o que há de melhor para trazer ainda mais alegria e qualidade de vida. Rações, acessórios, medicamentos e brinquedos estão na nossa listinha de prioridades; e tudo isso você encontra em nosso Pet Shop online.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+
+        <div id="form_principa">
+            <form>
+                <h2>Qual serviso você prefere?</h2>
+                <div class="nome">
+                    <label class="for_texto" for="nome">Nome:</label>
+                    <input type="text" name="nome"id="nome">
+                </div>
+                <div id="favoritos_pet">
+                    <fieldset>
+                        <legend class="for_texto"> <strong>Favoritos dos Cachorros:</strong> </legend>
+                        <ul>
+                            <li class="for_texto"><input  type="radio" name="destino" id="ração"value="ração">
+                                <label for="ração">Ração</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="antipulgas"value="antipulgas">
+                                <label for="antipulgas">Antipulgas</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="tapetes"value="tapetes">
+                                <label for="tapetes">Tapetes</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="medicamentos"value="medicamentos">
+                                <label for="medicamentos">Medicamentos</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="casinhas"value="casinhas">
+                                <label for="casinhas">Casinhas</label>
+                            </li>
+                        </ul>
+                        <input type="submit" id="btn_enviar">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="for_texto"> <strong>Favoritos dos Gatos:</strong> </legend>
+                        <ul>
+                            <li class="for_texto"><input  type="radio" name="destino" id="ração_secaa"value="ração_secaa">
+                                <label for="ração_secaa">Ração Seca</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="especializada"value="especializada">
+                                <label for="especializada">Tosa especializada</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="areias"value="areias">
+                                <label for="areias">Areias</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="caixa_transporte"value="caixa_transporte">
+                                <label for="caixa_transporte">Caixa de Transporte</label>
+                            </li>
+                            <li class="for_texto"><input type="radio" name="destino" id="arranhadores"value="arranhadores">
+                                <label for="arranhadores">Arranhadores</label>
+                            </li>
+                        </ul>
+                        <input type="submit" id="btn_enviar">
+                    </fieldset>
+                </div>
+                <img class="segunda_img" src="imagens/banho-e-tosa.webp" alt="">
+            </form>
+        </div>
+        <hr>
+        <div>
+            <img id="terceira_img" src="imagens/home_desk_banho1.webp" alt="">
+        </div>
+        <hr>
+        <a id="localizacao"></a>
+        <table id="tabela_mapa">
+            <tr>
+                <td>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.168092591598!2d-46.636510699999995!3d-23.5264559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58613439b6f3%3A0x9976c91219bd732f!2sR.%20Joaquim%20Murtinho%2C%20183%20-%20Bom%20Retiro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001123-050!5e0!3m2!1spt-BR!2sbr!4v1664825420656!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <a id="contato"></a>
+        <p>Pet Center Comércio e Participações S/A</p>
+        <p>Rua Dr. Miguel Paulo Capalho, 135 - Pari</p>
+        <p>|São Paulo - SP CEP: 09090-090</p>
+        <p>2022 Pet Center Comércio e Participaçoes S/A</p>
+        <p>Todos os Direitos reservados</p>
+    </footer>
+</body>
+</html>

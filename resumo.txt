@@ -1,0 +1,24 @@
+Alura Live:Como ser um bom dev front - end
+
+link: https://www.facebook.com/AluraCursosOnline/videos/vl.358719527812713/1509407892507116/?type=1
+
+	Para fazer o curso front - end, a base principal são HTML, CSS e JS, para trabalhar no
+no mercado temos que aprender a base sólida deses três, com essa base consegumis ir para o
+mercado de trabalho. 
+	Para fazer esse curso não precisa de faculdade, na faculdade devemos ter contato com 
+pessoas da área, que entende sobre o assunto de desenvolvedor que conseguimos tirar um pouco
+dessas duvidas, precisamos apenas de um esforço, hoje ta mas facil de aprender pois temos 
+you-tube, entao é muito emportante sempre pesquisar sobre o asunto, e tambem sempre falar com 
+alguem que entede dessa área de font-end ou ária de TI.
+	Mas depende da pessoa tem gente que prende apenas em um pouco de um mes e tem outras 
+que demora alguns anos para aprender, e quando trabalhamos aprendemos mais ainda, ao inves de 
+ser oito horas de trabalho, serão oito horas de aprendizado.
+	Devemos sempre ler um artigo ou procurar saites referentes que ajuda muito no aprendizado,
+devemos tirar almenis duas horas do nosso dia para obiter conhecimento sobre o assunto. Nenhum
+curso te deixa cem porsento no mercado de trabalho tem que se esforsar quando emgrnar na empreça
+que for chamado. 
+	Quando estamos começando, aqueles montes de códigos confusos, um milhão de linguagens, 
+mais um monte de termos técnicos (front-end, back-end, API, git, framework etc.), nos deixam 
+assustados e perdidos! Isso é normal, e é muito comum em qualquer área em que decidimos nos 
+aprofundar. Teoria é importante? Sim! Mas você precisa colocar ela em prática. Não tem jeito,
+praticar é a melhor forma de aprender a programar. 

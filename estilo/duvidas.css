@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner{
+    width: 70%;
+    height: 275px;
+    background-color: aqua;
+    margin: 30px auto;
+    padding-top: 15px;
+}
+
+.borda .texto{
+    width: 90%;
+    height: 250px;
+    margin: 0px auto;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 98px;
+    font-size: 50px;
+}
+
+/*img com texto centalizado*/
+.img_conteiner{
+    padding-left: 175px;
+}
+img{
+    width: 80%;
+}
+.texto02{
+    font-size: 30px;
+    position: relative;
+    bottom: 40%;
+    left: 40%;
+}
+#img__do__texto{
+    width: 200px;
+    height: 200px;
+    
+}
+.itrm__da__lista{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    font-size: 40px;
+}
+.lista__simples{
+    display: inline-flex;
+    width: 95%;
+    margin: 0px auto;
+    align-items: center;
+    
+}
+.conteiner__da__lista{
+    width: 70%;
+    height: 655px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 15px;
+    
+}
+.backgrout__bark{
+    background-color: #cccccc;
+}
+
+/*novo_container*/
+.novo_container{
+    width: 70%;
+    height: 655px;
+
+    margin: 0px auto;
+    padding-top: 15px;
+}
+.item_da_lista{
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+    font-size: 40px;
+    text-align: center;
+}
+.img_nova{
+    width: 200px;
+    height: 200px;
+}
+.lista_simples{
+    display: inline-flex;
+    width: 95%;
+    margin: 0px auto;
+    
+}
+.texto_intem{
+ padding-top: 9%;
+ box-sizing: border-box;
+ text-align: center;
+}

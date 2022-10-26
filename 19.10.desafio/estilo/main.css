@@ -1,0 +1,146 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    
+}
+
+#nav_menu{
+    background-color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+#nav_menu a{
+    color: #025951;
+    text-decoration: none;
+    padding: 20px;
+    padding: 0px 15px;
+}
+
+#nav_menu a:hover{
+    background-color:#65A69F ;
+    color: #40182E;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+}
+
+.primeira_tela{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 2px solid black;
+    margin:30px;
+    padding: 50px 0;
+}
+.primeira_tela h1{
+    font-weight:lighter;
+    margin: 30px;
+}
+.primeira_tela p{
+    margin-bottom: 15px;
+}
+
+#primeira_img{
+    width: 200px;
+    height: 160px;
+    padding-left: 50px;
+}
+.segunda_tela{
+    margin:30px;
+    background-color: white;
+    padding: 50px;
+}
+.paragrafo{
+    margin-bottom: 10px;
+}
+
+.terceira_tela{
+    background-color: white;
+    margin:30px;
+
+}
+.terceira_tela ul{
+    list-style: none;
+}
+.terceira_tela li{
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right: 19px;
+    margin-bottom: -4px;
+    vertical-align: middle;
+}
+.terceira_tela img{
+    width: 250px;
+    height: 250px;
+    background-color: #e2dede;
+}
+.terceira_tela h2{
+    text-align: center;
+    padding: 16px;
+    color: #cccccc;
+    font-size: 2em;
+}
+.quarta_tela{
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+}
+.quarta_tela h1, p{
+    margin-bottom: 15px;
+}
+
+.quita_tela{
+    background-color: white;
+    margin: 30px 30px 50px 30px;
+}
+
+form{
+    padding: 0px 40px;
+}
+form h1{
+    padding: 20px;
+}
+form #nome_sobrenome{
+    width: 40%;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+form #email{
+    width: 40%;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+form #titulo, #mensagem{
+    width: 89%;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+footer{
+    background-color: #F2F2F2;
+    color: #025951;
+    padding: 20px;
+    text-align: center;
+}

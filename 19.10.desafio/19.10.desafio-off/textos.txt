@@ -1,0 +1,22 @@
+fontes: 'Open Sans', Helvetica, Arial, sans-serif;
+
+cores utilizadas:
+#f2f2f2;
+white;
+black;
+#999999;
+gainsboro;
+
+ELEVATE IDEA
+Eleve seu nivel com a gente
+by Aluno Front-end
+
+Nosso Time
+Somos a turma de Front do Amontada Valley. Desenvolvemos ambientes para sua empresa.
+
+Somos a solução WEB que você está procurando. Venha conhecer nossos serviços e fechar uma parceria com a equipe mais profissional de Amonntada. Aguardamos seu contato.
+
+Nossas Ideias
+Estamos aqui para surpreender você. Temos belos modelos de Front-end para serem aplicados no site da sua empresa. Vem tomar um café com a gente e escolher o seu.
+
+Copyright © 2022 - Amontada Valley - Front-end - Equipe 00

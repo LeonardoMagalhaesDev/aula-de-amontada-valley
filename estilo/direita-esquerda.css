@@ -1,0 +1,42 @@
+:root{
+    --cor-pricipal:#EEB0B0;
+    --cor-secundaria:#FFE59D;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container*/
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #BDE6F1;
+}
+
+.esquerda{
+    display: inline-block;
+    width: 49.6%;
+    background-color: var(--cor-pricipal);
+}
+
+.direita{
+    display: inline-block;
+    width: 50%;
+    background-color: var(--cor-secundaria);
+}
+
+.esquerda .texto{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 100px;
+    color: var(--cor-secundaria);
+}
+.direita .texto{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 100px;
+    color: var(--cor-pricipal);
+}
+

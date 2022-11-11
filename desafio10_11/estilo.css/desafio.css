@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root{
+    
+    --cor-pricipal: #2C2F40;
+    --cor-secundaria: #656ABF;
+    --cor-terceira: #2D313D;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f7f7f783;
+}
+
+img{
+    width: 100%;
+    height: 450px;
+}
+
+.border{
+    width: 1000px;
+    margin: 0px auto;
+    background: white;
+    padding-bottom: 5%;
+}
+
+h2{
+    padding: 15px;
+    font-size: 2em;
+    color: var(--cor-terceira);
+}
+
+.titulo01{
+    padding-top: 5%;
+}
+
+.paragrafo{
+    margin: 15px;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+    color: var(--cor-pricipal);
+}
+
+form{
+    padding: 40px;
+    background-color: #f0eaea;
+    border-radius: 10px;
+    margin: 40px 40px 0px 40px;
+    
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input_padrao{
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+.enviar{
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: #F2F2F2;
+    color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

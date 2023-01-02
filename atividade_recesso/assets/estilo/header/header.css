@@ -1,0 +1,133 @@
+/*header menu*/
+.cabecalho{
+    height: 100vh;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 35vh auto;
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "menu1 menu1"
+        "menulateral banner";
+}
+
+.cabecalho__menu{
+    grid-area: menu1;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__menu__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 2.5%;
+    transition: .25s;
+}
+
+.cabecalho__caixa{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.cabecalho__perfil::before{
+    content: "\1F464 ";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao::before{
+    content: "\1F514";
+    font-size: 24px;
+    
+}
+
+.cabecalho__notificacao{
+    margin: 0px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cabecalho__perfil {
+    display: flex;
+    align-items: center;
+}   
+/* fim header menu*/
+
+/*header menu lateral*/
+.cabecalho__menuLateral{
+    grid-area: menulateral;
+    background-color: rgb(171, 139, 139);
+    height: 90vh;
+}
+
+.menu-lateral__titulo{
+    color: white;
+    font-family: pacifico, cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 10px 0 10px 50px;
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: white;
+    padding-left: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: .25s;
+    text-transform: uppercase;
+}
+
+.menu-lateral__link--ativo{
+    color: white;
+    padding-left: 23px;
+    border-left: 8px solid white;
+    transition: .25s;
+}
+
+.menu-lateral--ativo:hover{
+    text-decoration: underline;
+    padding-left: 25px;
+    border-left: 8px solid white;
+}
+
+.menu-lateral__link:hover{
+    color: white;
+    padding-left: 18px;
+    border-left: 8px solid white;
+    text-decoration: underline;
+}
+/*FIM header Menu lateral*/
+
+/* header Menu banner*/
+.banner{
+    grid-area: banner;
+    background: url(../../images/img\ \(10\).jpg) center / cover no-repeat;
+}
+
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: pacifico, cursive;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+    text-align: center;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    font-size: 2rem ;
+    background-color: rgba(0, 0, 0, 0.368);
+    padding: 10px;
+    text-transform: uppercase;
+}
+/* fim header Menu banner*/

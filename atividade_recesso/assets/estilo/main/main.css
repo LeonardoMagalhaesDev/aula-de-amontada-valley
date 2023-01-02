@@ -1,0 +1,210 @@
+/* main sobre*/
+.sobre{
+    background: url(../..//images/img\ \(8\).jpg) center / cover no-repeat;
+    width: 100%; height: 50vh;
+    text-align: center;
+}
+
+.sobre__titulo{
+    padding: 20px;
+    font-size: 2rem;
+    font-family: pacifico, cursive;
+    text-transform: uppercase;
+}
+
+.sobre__subititulo{
+    padding: 5px 0 30px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.sobre__caixa{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre__caixa02{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0 .5em 2em .5em;
+    padding: 10px;
+    box-shadow: 0 2px 9px #ddd;
+    width: 250px;
+    border-top: 3px solid red;
+}
+
+.sobre__caixa02__titulo{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.sobre__caixa02__titulo__paragrafo{
+    margin: 15px 0;
+    line-height: 1em;
+    color: #666;
+    text-align: justify;
+}
+/* fim main sobre*/
+
+/* main foco*/
+.foco{
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foco__caixa__img{
+    width: 450px;height: 500px;
+    margin-left: 20px;
+}
+
+.foco__caixa02{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.686);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.foco__caixa02__titulo{
+    font-family: pacifico, cursive;
+    font-size: 2.5rem;
+    padding: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+.foco__caixa02__texto{
+    width: 80%;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0;
+    line-height: 1em;
+}
+
+.foco__caixa02__icon{
+    border-top: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+    
+}
+
+.icon__box__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(111, 110, 110);
+}
+
+.icon__box__link:hover{
+    color: black;
+}
+
+.icon__texto{
+    margin-left: 5px;
+}
+/* fim main foco*/
+
+/* main portfolio*/
+.portfolio{
+    background: url(../../images/img\ \(2\).jpg) center / cover no-repeat;
+    width: 100%;height: 80vh;
+    text-align: center;
+}
+
+.portfolio__titulo{
+    padding: 20px;
+    font-size: 2rem;
+    font-family: pacifico, cursive;
+    text-transform: uppercase;
+}
+
+.portfolio__texto{
+    padding: 5px 0 30px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.portfolio__caixa--pai{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.portfolio__caixa{
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.12s;
+}
+
+.portfolio__caixa:hover{
+    background-color: rgb(171, 139, 139);
+    color: white;
+    cursor: pointer;
+}
+
+.portfolio__caixa__img{
+    width: 90%;
+}
+
+.portfolio__caixa__texto{
+    text-transform: uppercase;
+}
+/*fim main portfolio*/
+
+/*main nosso-time*/
+.nosso-time{
+    background: url(../../images/img\ \(3\).jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    width: 100%;height: 90vh;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.nosso-time__titulo{
+    padding: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: pacifico, cursive;
+}
+
+.nosso-time__texto{
+    padding: 5px 0 30px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nosso-time__caixa--pai{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+}
+
+.nosso-time__caixa__img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 1px 3px 10px white;
+}
+
+.nosso-time__caixa__texto{
+    font-weight: lighter;
+    font-family: pacifico, cursive;
+    font-size: 1.5rem;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+}
+
+.nosso-time__caixa__texto02{
+    font-weight: 700;
+}
+/*fim main nosso-time*/

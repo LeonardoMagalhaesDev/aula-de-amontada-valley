@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #289ea1;
+    width: 1366px;
+}
+
+.cabecalho {
+    height: 750px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.cabecalho__img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.conteudo__preincipal {
+    font-size: 9rem;
+    color: white;
+    width: 1000px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo .cabecalho__img{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+.conteudo .cabecalho__img2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+
+}
+
+.cabecalho__1mg3{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 100%;
+    right: -5%;
+}
+
+.conteudo {
+    height: 750px;
+}
+
+.footer {
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+.footer .amontadaValley {
+    width: 600px;
+    height: 600px;
+    margin-left: 25%;
+}
+
+.footer__img{
+    width: 400px;
+    height: 400px;
+}
+.footer__regua{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

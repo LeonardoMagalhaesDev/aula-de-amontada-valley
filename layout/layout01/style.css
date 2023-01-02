@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0ch;
+}
+
+.borda{
+    margin: 10px;
+    padding: 10px;
+    border-top: 3px solid chartreuse;
+    border-left: 3px solid chartreuse;
+    border-right: 3px solid chartreuse;
+}
+
+.cabecalho{
+    background-color: orangered;
+    height: 150px;
+    margin: 10px;
+}
+
+/**/
+.borda02{
+    padding: 10px;
+    margin: -10px 10px;
+    border-left: 3px solid chartreuse;
+    border-right: 3px solid chartreuse;
+}
+.borda03{
+    display: flex;
+    align-items: center;
+    border: 3px solid chartreuse;
+}
+.destaque{
+    background-color: orangered;
+    height: 450px;
+    width: 50%;
+    margin: 10px;
+}
+
+.populares{
+    width: 50%;
+    border-left: 3px solid chartreuse;
+
+}
+
+.populares__caixa{
+    background-color: orangered;
+    height: 222px;
+    margin: 10px;
+}
+
+/**/
+
+.rodape{
+    padding: 10px;
+    margin: -10px 10px 10px 10px;
+    border-left: 3px solid chartreuse;
+    border-right: 3px solid chartreuse;
+    border-bottom: 3px solid chartreuse;
+}
+
+.rodape__caixa{
+    background-color: orangered;
+    height: 300px;
+    margin: 10px;
+}
+
+.rodape__caixa02{
+    background-color: orangered;
+    height: 150px;
+    margin: 10px;
+}

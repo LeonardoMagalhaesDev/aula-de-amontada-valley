@@ -1,0 +1,179 @@
+/*footer contato*/
+.contato{
+    background: url(../../images/img\ \(12\).jpg) center / cover no-repeat;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.contato__principal{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contato__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(../../images/img\ \(4\).jpg) center / cover no-repeat;
+    padding: 10px;
+    box-shadow: 0 2px 9px rgb(171, 139, 139);
+}
+
+.contato__principal__titulo{
+    padding: 25px 0 20px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: pacifico, cursive;
+    color: white;
+}
+
+.contato__principal__texto{
+    padding: 5px 0 30px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.icon__box__link--contato{
+    margin: 20px;
+    color: black;
+}
+
+.icon__box__link--contato:hover{
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+}
+
+.contato__formulario{
+    background-color:black;
+    border-radius: 50%;
+    width: 405px;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.form-control{
+    background-color: black;
+    color: white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-bottom: 10px;
+    width: 18vw;
+    padding: 10px 0 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control__botao{
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: pacifico, cursive;
+    transition: 0.14s;
+    color: darkgray;
+}
+
+.form-control__botao:hover{
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*fim footer contato*/
+
+/* footer area*/
+.area{
+    background: url(../../images/img\ \(9\).jpg) center / cover no-repeat;
+    height: 100vh;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.area__site{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.area__titulo{
+    padding: 25px 0 20px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: pacifico, cursive;
+    color: white;
+    text-align: center;
+    font-family: pacifico, cursive;
+}
+
+.area__site__caixa{
+    padding: 5px 0 30px 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    transition: 0.13s;
+    font-family: pacifico, cursive; 
+}
+
+.area__site__caixa:hover{
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.666);
+    border-radius: 10px;
+}
+/*fim footer area*/
+
+/* footer rodape*/
+.rodape{
+    background-color: rgba(0, 0, 0, 0.666);
+    color: white;
+    padding: 15px;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: pacifico, cursive; 
+}
+
+.rodape__icone{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: end;
+}
+
+.rodape__icone a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github{
+    background: url("../../images/github.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.twitter{
+    background: url("../../images/twitter.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.linkedin{
+    background: url("../../images/linkedin.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.facebook{
+    background: url("../../images/images.png") center / cover no-repeat;
+    margin-left: 5px;
+    border-radius: 100px;
+}
+
+.dribbble{
+    background: url("../../images/download.png") center / cover no-repeat;
+    margin-left: 5px;
+    border-radius: 100px;
+}
+/*fim footer rodape*/

@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0ch;
+}
+
+.borda{
+    margin: 10px;
+    padding: 10px;
+}
+
+.cabecalho{
+    background-color: rgb(0, 195, 255);
+    height: 150px;
+    margin: 10px;
+}
+
+/**/
+.borda02{
+    
+    padding: 10px;
+    margin: -10px 10px;
+}
+.borda03{
+    display: flex;
+    align-items: center;
+}
+.destaque{
+    background-color: rgb(157, 255, 0);
+    height: 700px;
+    width: 25%;
+    margin: 10px;
+}
+
+.populares{
+    width: 70%;
+    background-color: rgb(255, 166, 0);
+    height: 700px;
+    margin: 10px;  
+    margin-left: 3%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.populares__caixa{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    background-color: rgb(178, 151, 71);
+
+}
+
+/**/
+
+.rodape{
+    padding: 10px;
+    margin: -10px 10px 10px 10px;
+}
+
+.rodape__caixa02{
+    background-color: rgb(0, 195, 255);
+    height: 150px;
+    margin: 10px;
+}

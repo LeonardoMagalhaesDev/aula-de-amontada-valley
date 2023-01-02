@@ -1,0 +1,77 @@
+/*cabecalho header*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    margin:0 1.5rem;
+}
+
+.material-icons{
+    color: white;
+}
+
+.Logo{
+    width: 90px;
+    height: 50px;
+}
+
+.formulario{
+    display: flex;
+    width: 50%;
+}
+
+.pesquisar{
+    border: 1px solid #a2a2a2;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#pesquisa{
+    border: transparent;
+    padding: 10px;
+    font-size: 1rem;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.lupa{
+    background-color: #a2a2a2;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+}
+
+.microfone{
+    background-color: #a2a2a251;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.icones{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+/* FIM cabecalho header*/

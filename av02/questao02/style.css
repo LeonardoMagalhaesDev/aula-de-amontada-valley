@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', 'icones', sans-serif;
+}
+body{
+    background-color: #009999;
+    height: 150vh;
+}
+
+header{
+    background: url('background.jpg') center / cover no-repeat;
+    height: 80vh;
+}
+
+/*cabecalho__caixa*/
+
+.cabecalho{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    
+    
+}
+.cabecalho__caixa{
+    background: white;
+    color: #009999;
+    width: 73%;
+    height: 100px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cabecalho__menu__ordem{
+    display: flex;
+}
+
+.cabecalho__menu__lista{
+    background-color: white;
+    margin: 15px 15px 0px 0;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: #009999;
+}
+
+.ativo02:hover{
+    color: white;
+    background-color: #009999;
+}
+
+.cabecalho--img{
+    margin-right: 1rem;
+}
+
+.ativo{
+    background-color: #009999;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #009999;
+}
+
+/*FIM*/
+
+/*main*/
+
+.cabecalhoPrincipal{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 50%;
+}
+
+
+.cabecalhoPrincipal-nav{
+    
+    background-color: rgba(0, 0, 0, 0.354);
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalhoPrincipal-nav-link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav-link:hover{
+    color: #03f2f2;
+    text-decoration: underline;
+}
+
+.cabecalhoPrincipal-nav-link--ativo{
+    color: #03f2f2;
+    text-decoration: underline;
+}
+
+.cabecalhoPrincipal01{
+    display: flex;
+
+    
+}
+
+.caixa{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.354);
+    margin: 10px 0px 10px 10px;
+    color: white;
+    
+}
+
+.caixa02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caixa02 h2{
+    padding-bottom: 20px;
+}
+
+.caixa02 p{
+    
+    color: #06f0f0;
+    font-weight: 700;
+        
+}
+
+.coffe--img{
+    margin: 10px 0;
+}
+
+/*fim do main*/
+
+/*footer*/
+footer{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    padding: 1rem;
+    width: 40%;
+    position: absolute;
+    bottom: -45%;
+    left: 1%;
+}
+
+
+
+
+

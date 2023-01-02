@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 50%;
+    height: 100vh;
+    margin: 10px 0px 0px 10px;
+}
+
+.logo{
+    background-color: #CC6733;
+    color: white;
+    font-weight: lighter;
+    width: 200px; height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.logo p{
+    color: aliceblue;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px; height: 200px;
+    margin: 10px 0;
+    background-color: rgb(223, 224, 225);
+    padding: 3rem 0;
+
+}
+
+.cabecalhoPrincipal-nav-link{
+    border: 2px solid rgb(176, 176, 176);
+    padding: 1rem;
+    margin: 5px 25px;
+    background-color: white;
+    color: darkgray;
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav-link:hover{
+    border: 2px solid #cc6633a5;
+    color: #cc66339f;
+}
+
+.ativo{
+    border: 2px solid #cc6633a5;
+    color: #cc66339f;
+}
+
+/*fim header*/
+
+/*main*/
+main{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+
+
+}
+
+img{
+    margin: 0px 10px 10px 10px;
+}
+
+/*fim main*/
+
+/*footer*/
+footer{
+    color: darkgray;
+    position: absolute;
+    bottom: -690%;
+    right: 1%;
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+/*cabecalho-lateral*/
+.cabecalho-lateral{
+    position: fixed;
+    left: 0;
+    top: 4rem;
+    bottom: 0;
+    width: 8%;
+}
+
+.home{
+    width: 72px;
+    padding: 16px 0 14px;
+    outline: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+}
+/*FIM cabecalho-lateral*/

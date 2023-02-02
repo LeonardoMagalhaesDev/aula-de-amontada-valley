@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: pacifico, cursive;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+/* header cabecalho-caixa*/
+.cabecalho__caixa{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: end;
+    margin-left: 2.5%;
+    transition: .25s;
+}
+
+.cabecalho__perfil::before{
+    content: "\1F464 ";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao::before{
+    content: "\1F514";
+    font-size: 24px;
+}
+
+.cabecalho__notificacao{
+    margin: 0px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cabecalho__perfil {
+    display: flex;
+    align-items: center;
+}
+/* fim header cabecalho-caixa*/
+
+/* header caixa rosa e azul*/
+.titulo, .titulo02{
+    background-color: #F96699;
+    width: 1000px; height: 60vh;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.titulo__caixa{
+    color: #fdfdfd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 10px;
+}
+
+.titulo__principal, .titulo__principal02{
+    font-size: 28px;
+}
+
+.titulo span{
+    text-transform: uppercase;
+}
+
+.titulo02{
+    background-color: #38CCCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.titulo__caixa02{
+    margin-left: 100px;
+}
+
+.titulo__icone02{
+    margin-left: 50px;
+}
+
+.titulo__caixa02__paragrafo{
+    width: 40%;
+    text-align: justify;
+}
+/* fim header caixa rosa e azul*/
+
+/* main menuPrincipal*/
+.menuPrincipal{
+    width: 1000px;
+    margin: auto;
+}
+
+.menuPrincipal__lista{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.menuPrincipal__lista li{
+    margin:2.5rem 0 2rem 30px;
+}
+
+.menuPrincipal__item{
+    text-decoration: none;
+    color: #38CCCC;
+}
+
+.ativo{
+    color: #F96699;
+}
+
+.menuPrincipal__item:hover{
+    text-decoration: underline;
+    color: #F96699;
+}
+/* fim main menuPrincipal*/
+
+/*  main menuImagens*/
+.menuImagens{
+    width: 1000px;
+    margin: auto;
+}
+
+.memuImagens__caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menuImagens__caixa__img{
+    border-radius: 10px;
+    width: 240px; height: 240px;
+}
+/* Fim  main menuImagens*/
+
+/*   footer formulario*/
+.formulario{
+    background-color: #99cccc;
+    width: 1000px;
+    margin: 2.5rem auto; padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.form-control{ 
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    width: 18vw;
+    padding: 10px 0 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon__box__link{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.form-control__botao{
+    margin-left: 200px;
+    padding: 5px;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+.form-control__botao:hover{
+     cursor: pointer;
+     color: #F96699;
+}
+
+.rodape__icone{
+    display: flex;
+    list-style: none;
+    width: 50%;
+}
+
+.rodape__icone a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.twitter{
+    background: url("../../assets/img/ico_twite.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.facebook{
+    background: url("../../assets/img/ico_facebook.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.instagram{
+    background: url("../../assets/img/ico_instagram.png") center / cover no-repeat;
+    margin-left: 5px;
+}
+
+.formulario__titulo__icone{
+    margin-left: 35px;
+}
+
+.formulario__titulo__principal{
+    color: white;
+}
+/* fim  footer formulario*/
+
+/*  footer rodape*/
+.rodape{
+    color:#999999;
+    text-align: center;
+    margin: 3rem;
+}
+/* fim  footer rodape*/

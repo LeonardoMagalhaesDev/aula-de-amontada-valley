@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    width: 50%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+}
+
+div{
+    display: grid;
+    grid: repeat(3, 150px) / 80px 1fr;
+    grid-row-gap: 40px;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+h3{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+span{
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    background-color: #98d3f2;
+    text-align: center;
+    padding: 30%;
+    box-sizing: border-box;
+}
+
+p{
+    border: 1px solid #c9c9c9;
+    text-align: justify;
+    font-size: 18px;
+    padding: 5% 0 0 5%;
+    box-sizing: border-box;
+}
+
+form{
+    margin-bottom: 50px;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+button{
+    width: 250px; height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao{
+    background-color: #a3d7c0;
+    border: none;
+    text-transform: uppercase;
+}
+
+#botao02{
+    background-color: #2a7ae4;
+    border: none;
+    text-transform: uppercase;
+}

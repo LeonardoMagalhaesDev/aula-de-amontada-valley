@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'sourc';
+    margin: 3rem auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 80vh) 80px 600px 250px 120px;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+.header__rosa{
+    background-color: hotpink;
+    display: grid;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    color: white;
+}
+
+.span__amor{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.span__azul{
+
+}
+
+.header__azul{
+    background-color: blue;
+    display: grid;
+    border-radius: 10px;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "icone p__conteudo"
+    "sobre p__conteudo02";
+    
+}
+
+.icone__azul{
+    grid-area: icone;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.titulo__azul{
+    grid-area: sobre;
+    justify-self: center;
+}
+
+.p__conteudo{
+    grid-area: p__conteudo;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    align-self: center;
+    margin-right: 50px;
+}
+
+.p__conteudo02{
+    grid-area: p__conteudo02;
+    align-self: center;
+}
+
+nav{
+    background-color: rgb(70, 70, 110);
+}
+
+main{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: brown;
+}
+
+.contato{
+    height: 300px;
+    background-color: #99cccc;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 120px;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.contato__form{
+    display: flex;
+    grid: 6fr/1fr;
+}
+
+.contato__paragrafo{
+    display: flex;
+    grid: 4fr/1fr;
+}
+
+.contato__icone{
+    display: flex;
+    grid: 3fr/1fr;
+}

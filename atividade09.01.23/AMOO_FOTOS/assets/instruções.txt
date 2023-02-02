@@ -1,0 +1,8 @@
+## Criar o layout com o máximo de fidelidade possível. 
+## Os textos em português devem ser idênticos.
+
+## cores: rosa(#F96699), azul(#38CCCC), cinza escuro(#999999) e cinza claro(#f1f1f1)
+## tamanho da fonte: 28px para títulos e 18px para textos
+## fonte: 'Source Sans Pro', sans-serif
+## imagens e ícones disponíveis no arquivo
+99cccc

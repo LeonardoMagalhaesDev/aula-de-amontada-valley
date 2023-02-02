@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    display: grid;
+    width: 100vw; height: 100vh;
+    background-color: #f1f1f1;
+    /* grid-template-columns: minmax(100px, 300px) repeat(2, 1fr) 100px; */
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+@media (max-width : 700px){
+    div{
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 1fr 50px;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "footer";
+    }
+    header{
+        display: none;/* sem cabeçalho*/
+    }
+    
+}
+
+footer{
+    background-color: blueviolet;
+    grid-area: footer;
+}
+nav{
+    background-color: violet;
+    grid-area: nav;
+}
+
+main{
+    background-color: aqua;
+    grid-area: main;
+}
+header{
+    background-color: teal;
+    grid-area: header;
+}

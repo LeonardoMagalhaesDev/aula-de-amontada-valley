@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main{
+    height: 100vh;
+    text-align: center;
+    width: 80%; 
+    margin: 0px auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    align-content:center ;
+}
+
+input{
+    width: 120px; height: 50px;
+}

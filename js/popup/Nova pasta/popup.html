@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup validation</title>
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="preload" href="css/popup.css" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="header__nav">
+        <h1 id="header__h1">Digital Trends</h1>
+        <nav>
+            <ul class="header__ul">
+                <li>Mundo Digital</li>
+                <li>
+                    <button class="header__li" onclick="meuModal();">Contato</button>
+                </li>
+            </ul>
+           
+        </nav>
+        <div id="modal">
+        <section id="modal__container">
+            <div class="modal__header">
+            <h4>Entre em contato com a gente!</h4>
+                <button type="button" onclick="meuModalFechar();">&times;</button>
+            </div>
+            <div class="modal__body">
+                <input class="modal__item" type="text" placeholder="Seunome aqui!">
+                <textarea class="modal__item" name="" id="" cols="30" rows="10" placeholder="Sua duvida ou sugestão"></textarea>
+            </div>
+            <div class="modal__footer">
+                <button type="button">Enviar</button>
+                <button type="button" onclick="meuModalFechar();">Fechar</button>
+            </div>
+        </section>
+    </div>
+    </header>
+    <header>
+        <div class="header__div">
+            <p id="item01">Nós estamos esperando por você no Digital</p>
+            <button id="item02"  class="popup__button" onclick="meuPopup();">Vamos decidir isso juntos!
+            <p class="popup__texto">Fundada no Chile em 1979, a Digital Trend é uma das maiores empresas digital do mundo, com 1 milhão de clientes, dos quais 110 mil no Brasil. A empresa começou a investir no Brasil em 2007, quando adquiriu parte das atividades da finlandesa Store, que havia adquirido a empresa paranaense Inpacel. Atualmente a Digital Trends possui quatro predios no Brasil, com capacidade para produzir 1,52 milhão de trabalhos digitais por ano.</p></button>
+            <address id="item03">
+                <span class="material-symbols-outlined">
+                    call
+                    </span>
+                <span>(88) 91718.1920</span>
+            </address>
+            <img  id="item04" class="img__size_header" src="banner-logo.png" alt="">
+        </div>
+    </header>
+    <main class="main__align">
+        <h2>A melhor agencia <strong> Digital do Brasil</strong></h2>
+        <p>Lorem ipsum <em> dolor sit amet consectetur adipisicing elit.</em> Voluptatem, error ullam!</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatibus quidem esse iure rem explicabo, in numquam corporis expedita?</p>
+
+        <div>
+        <img class="main__align main__img1" src="office.png" alt="">
+        </div>
+
+        <div class="div__main_meio">
+            <h2>Por favor, dê uma olhada em nossos projetos Digital Trends.</h2>
+            <div>
+                <img class="img__size" src="project-image01.jpg" alt="">
+                <img class="img__size" src="project-image02.jpg" alt="">
+                <img class="img__size" src="project-image04.jpg" alt="">
+                <img class="img__size" src="project-image05.jpg" alt="">
+
+            </div>
+        </div>
+
+        <section>
+            <img src="female-avatar.png" alt="">
+            <h3>Nossos clientes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt molestiae, aliquid ipsa fugiat possimus minus eveniet totam iusto vero.</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Fazemos apenas <strong>Criatividade</strong> com <strong>Paixão</strong></h2>
+        <address>
+            <span>Contatos:</span>
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+            <span><em>contato@digitaltrends.com.br</em></span>
+        </address>
+        <address>
+            <span>Estamos na</span>
+            <span class="material-symbols-outlined">
+                home
+            </span>
+            <span>Av. Lúcio Costa 1422, barra dos anzois - RJ, Brasil.</span>
+        </address>
+        <span>&COPY; Todos os Direitos Reservados 2022</span>
+        <span>Desenvolvido por: Felipe Morais</span>
+        <address>
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <span class="material-symbols-outlined">
+                flutter_dash
+            </span>
+            <span class="material-symbols-outlined">
+                sports_baseball
+             </span>
+        </address>
+    </footer>
+    
+    <script src="js/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup Validation</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="header__nav">
+        <h1 id="header__titulo">Digital trends</h1>
+        <nav>
+            <ul id="header__ul">
+                <li class="header__li header__li--01">Mundo Digital</li>
+                <li class="header__li">
+                    <button onclick="menuModal()">Contatoo</button>
+                    
+                </li>
+            </ul>
+        </nav>
+        <div id="modal">
+            <section id="modal__container">
+                <div class="modal__header">
+                    <h4>entre em contato com agente!</h4>
+                    <button type="button" onclick="meuModalFechar();">&times;;</button>
+                </div>
+                <div class="modal__body">
+                    <input class="modal__item" type="text"  placeholder="Seu nome aqui!">
+                    <textarea class="modal__item" name="" id="" cols="30" rows="10" placeholder="Sua duvida ou sugestão"></textarea>
+                </div>
+                <div class="modal__footer">
+                    <button type="button">Enviar</button>
+                    <button type="button" onclick="meuModalFechar()">Fechar</button>
+                </div>
+            </section>
+        </div>
+    </header>
+    <header>
+        <div class="header__banner">
+            <p id="item01">Nós estamos esperando você no Digital</p>
+            <button id="item02">Vamos decidir isso juntos!</button>
+            <address id="item03">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                <span >(88)91718-1920</span>
+            </address>
+            <img id="item04" class="img__size--header" src="img/banner-logo.png" alt="banner">
+        </div>
+    </header>
+    <main class="main__align">
+        <h2>Melhor agencia <strong>Digital do Brasil</strong> </h2>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, vitae accusantium tempore quo facere tempora, harum suscipit adipisci doloremque odit aperiam. Architecto consequuntur exercitationem quos voluptatum beatae inventore, quae pariatur!</p>
+        <p>Lorem ipsum <em> dolor sit amet consectetur adipisicing elit. Praesentium vero veniam culpa dignissimos perspiciatis impedit amet cupiditate,</em> quisquam in dolores reiciendis fuga fugiat non corporis dolorum, alias molestiae! Libero, assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident nam sequi facere voluptate laborum alias. Esse quibusdam earum beatae deleniti commodi, nisi temporibus quis veniam, minima qui, quod adipisci.</p>
+        <div>
+            <img class=" main__img1" src="img/office.png">
+        </div>
+        <div class="div__main_meio">
+            <h2>Por favor, dê uma olhada em nossos projetos Digital Trends</h2>
+            <div>
+                <img class="img__size" src="img/project-image01.jpg">
+                <img class="img__size" src="img/project-image02.jpg">
+                <img class="img__size" src="img/project-image04.jpg">
+                <img class="img__size" src="img/project-image05.jpg">
+            </div>
+        </div>
+        <section>
+            <img src="img/female-avatar.png" alt="">
+            <h3>Nossos Clientes</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente id eius, expedita in nulla autem nesciunt quae illo temporibus repudiandae porro pariatur aliquid recusandae, perferendis odio adipisci libero animi. Laborum.</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Fazemos apenas <strong>Criatividade</strong> com <strong>Paixão</strong></h2>
+        <address>
+            <span>Contato</span>
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+            <span> <em>Contato@digitaltrens.com.br</em></span>
+        </address>
+        <address>
+            <span>Estamos na</span>
+            <span class="material-symbols-outlined">
+                home
+            </span>
+            <span>AV. Lúcio Costa 1422, Barra dos Anzois - RJ, Brasil.</span>
+        </address>
+        <span>&copy; Todos os Direitos Reservado 2022</span>
+        <span>Desenvolvido por: leonardo.sousa.dev@gamail.com</span>
+        <address>
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <span class="material-symbols-outlined">
+                flutter_dash
+                </span>
+                <span class="material-symbols-outlined">
+                    sports_baseball
+                    </span>
+        </address>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>

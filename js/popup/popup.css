@@ -1,0 +1,123 @@
+:root{
+    --azul:#0c8195;
+    --branca:#ffffff;
+    --amarelo:#f1c111;
+    --azulclaro: #cee5f9;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  header__nav */
+.header__nav{
+    background-color: var(--azul);
+    color: var(--branca);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header__titulo{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+#header__ul{
+    display: grid;
+    grid-template-columns: 180px 150px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.header__li{
+    color: var(--amarelo);
+    border: 2px solid var(--amarelo);
+    height: 40px; 
+    border-radius: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.header__li--01{
+    border: none;
+    color: var(--branca);
+}
+/* fim header__nav */
+
+.header__banner{
+    color: var(--azul);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    justify-items: center;
+}
+
+#item01{
+    font-size: 1.5rem; 
+    font-weight: bold;
+    align-self: flex-end;
+    grid-row-start: 1;grid-row-end: 2;
+
+}
+
+#item02{
+    font-size: 1.2rem;
+    background-color: var(--branca);
+    color: var(--azul);
+    border: 2px solid var(--azul);
+    border-radius: 100px;
+    width: 250px; height: 80px;
+    grid-row-start: 2;grid-row-end: 3;
+    align-self: center;
+}
+
+#item03{
+    font-size: 1.1rem;
+    font-weight: bold;
+    grid-row-start: 3;grid-row-end: 4;
+}
+
+/* #item04{
+    grid-column-start: 2;grid-column-end: 3;
+    grid-row-start: 1;grid-row-end: 4;
+} */
+
+.img__size--header{
+    width: 500px; height: 350px;
+}
+/* fim header__banner */
+
+.main__align{
+    width: 70%;
+    margin: 0px auto;
+    background-color: var(--azul);
+    display: grid;
+    justify-items: center;
+
+}
+
+main p{
+    text-align: justify;
+    width: 90%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.img__size{
+    width: 350px; height: 230px;
+    border-radius: 10px;
+}
+
+.main__img1{
+    width: 635px!important; height: 312px;
+}
